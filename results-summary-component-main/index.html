@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link href="style.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+</head>
+<body>
+
+  <section class="container">
+    <div class="result-box">
+      <h3 class="result-box__title">Your Result</h3>
+      <div class="result-box__circle">
+        <h1 class="result-box__circle-number"></h1>
+        <h5 class="result-box__circle-of100">of 100</h5>
+      </div>
+      <h2 class="result-box__great">Great</h2>
+      <p class="result-box__description">You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+
+    <div class="summary">
+      <h3 class="summary-title">Summary</h3>
+
+
+      <div class="summary__parts">
+        <div class="summary__part summary__reaction">
+          <div class="summary-icon-p">
+            <img class="summary__reaction-img" alt="icon-reaction.svg">
+            <p class="summary-p summary__reaction-p">Reaction</p>
+          </div>
+          <p class="summary__score"></p>
+        </div>
+
+        <div class="summary__part summary__memory">
+          <div class="summary-icon-p">
+            <img class="summary__memory-img" alt="icon-memory.svg">
+            <p class="summary-p summary__memory-p">Memory</p>
+          </div>
+          <p class="summary__score"></p>
+        </div>
+
+        <div class="summary__part summary__verbal">
+          <div class="summary-icon-p">
+            <img class="summary__verbal-img" alt="icon-verbal.svg">
+            <p class="summary-p summary__verbal-p">Verbal</p>
+          </div>
+          <p class="summary__score"></p>
+        </div>
+
+        <div class="summary__part summary__visual">
+          <div class="summary-icon-p">
+            <img class="summary__visual-img" alt="icon-visual.svg">
+            <p class="summary-p summary__visual-p">Visual</p>
+          </div>
+          <p class="summary__score"></p>
+        </div>
+      </div>
+
+      <button type="button" class="continue-btn">Continue</button>
+
+    </div>
+  </section>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
